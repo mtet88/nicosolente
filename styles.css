@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 33vh;
+  height: 33vh;
+  background: url('circle-image.jpg') no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+  animation: hover 2s infinite alternate;
+}
+
+@keyframes hover {
+  0% {
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+}
