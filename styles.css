@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('background-image.jpg');
+  background-image: url('images/insolente_bg_12.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -13,7 +13,7 @@ body {
 .circle {
   width: 33vh;
   height: 33vh;
-  background: url('circle-image.jpg') no-repeat center;
+  background: url('logo.svg') no-repeat center;
   background-size: cover;
   border-radius: 50%;
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
