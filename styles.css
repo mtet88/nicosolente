@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('images/insolente_bg_12.jpg');
+  background-image: url('images/insolente_bg_12.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -11,20 +11,28 @@ body {
 }
 
 .circle {
-  width: 33vh;
-  height: 33vh;
-  background: url('logo.svg') no-repeat center;
+  width: 50vh;
+  height: 50vh;
+  background: ghostwhite;
   background-size: cover;
   border-radius: 50%;
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
   animation: hover 2s infinite alternate;
 }
 
+.circlelogo {
+  width: 35vh;
+  height: 35vh;
+  background: url('logo.svg') no-repeat center;
+  background-size: cover;
+}
+
+
 @keyframes hover {
   0% {
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.7);
   }
   100% {
-    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 30px 40px 50px rgba(0, 0, 0, 0.8);
   }
 }
