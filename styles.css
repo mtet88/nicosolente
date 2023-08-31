@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('images/insolente_bg_12.png');
+  background-image: url('https://raw.githubusercontent.com/mtet88/nicosolente/main/images/insolente_bg_12.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -26,7 +26,7 @@ body {
 .circlelogo {
   width: 35vh;
   height: 35vh;
-  background: url('logo.png') no-repeat center;
+  background: url('https://raw.githubusercontent.com/mtet88/nicosolente/main/logo.png') no-repeat center;
   background-size: cover;
 }
 
